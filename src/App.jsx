@@ -19,9 +19,9 @@ function App() {
     var logindetails =axios.post("https://login-backend-gfoq.onrender.com",{"username":user,"password":pass})
     logindetails.then(function(data){
         if(data.data === true){
-          navigate("/Success")
+          navigate("/success")
         }else{
-          navigate("/Fail")
+          navigate("/fail")
         }
     })
   }

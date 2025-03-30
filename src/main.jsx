@@ -8,8 +8,8 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <Routes>
     <Route path='/' element={<App/>} />
-    <Route path='/Success' element={<Success/>} />
-    <Route path='/Fail' element={<Fail/>} />
+    <Route path='/success' element={<Success/>} />
+    <Route path='/fail' element={<Fail/>} />
     </Routes>
     </BrowserRouter>
 )
